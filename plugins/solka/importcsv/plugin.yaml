@@ -1,0 +1,11 @@
+plugin:
+    name: 'solka.importcsv::lang.plugin.name'
+    description: 'solka.importcsv::lang.plugin.description'
+    author: solka
+    icon: oc-icon-send
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'import csv'
+        url: solka/importcsv/importcsv
+        icon: icon-life-ring

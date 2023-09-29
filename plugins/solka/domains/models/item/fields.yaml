@@ -1,0 +1,45 @@
+fields:
+    name:
+        label: Название
+        span: auto
+        type: text
+    short:
+        label: 'Короткое описание'
+        span: auto
+        type: text
+    price:
+        label: Цена
+        span: auto
+        type: text
+    slug:
+        label: URL
+        span: auto
+        preset: name
+        type: text
+    discription:
+        label: Описание
+        size: ''
+        mode: tab
+        span: full
+        type: markdown
+    cover:
+        label: Фото
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload
+    cities:
+        label: Города
+        mode: relation
+        separator: comma
+        customTags: true
+        useKey: false
+        span: auto
+        type: taglist
+    is_published:
+        label: ''
+        span: auto
+        type: switch

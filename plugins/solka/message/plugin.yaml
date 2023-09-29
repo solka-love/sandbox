@@ -1,0 +1,11 @@
+plugin:
+    name: 'solka.message::lang.plugin.name'
+    description: 'solka.message::lang.plugin.description'
+    author: Solka
+    icon: oc-icon-envelope
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Message
+        url: solka/message/feedback
+        icon: icon-paper-plane

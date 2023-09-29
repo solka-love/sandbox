@@ -1,0 +1,11 @@
+plugin:
+    name: 'solka.import::lang.plugin.name'
+    description: 'solka.import::lang.plugin.description'
+    author: solka
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Menu Item'
+        url: solka/import/importcsv
+        icon: icon-life-ring

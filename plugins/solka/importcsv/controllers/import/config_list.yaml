@@ -1,0 +1,12 @@
+list: $/solka/importcsv/models/prices/columns.yaml
+modelClass: Solka\ImportCsv\Models\Prices
+title: Import
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'solka/importcsv/import/update/:id'

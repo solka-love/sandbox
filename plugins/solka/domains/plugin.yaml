@@ -1,0 +1,32 @@
+plugin:
+    name: 'solka.domains::lang.plugin.name'
+    description: 'solka.domains::lang.plugin.description'
+    author: Solka
+    icon: oc-icon-flag-o
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Domen
+        url: solka/domains/domes_control
+        icon: icon-flag-o
+        sideMenu:
+            side-menu-item:
+                label: Domen
+                url: solka/domains/domes_control
+                icon: icon-flag-o
+            side-menu-item2:
+                label: 'Service items'
+                url: solka/domains/items
+                icon: icon-inbox
+            side-menu-item5:
+                label: Title
+                url: solka/domains/titles
+                icon: icon-heartbeat
+            side-menu-item3:
+                label: 'Create item'
+                url: solka/domains/items/create
+                icon: icon-plus
+            side-menu-item4:
+                label: 'Create Domen'
+                url: solka/domains/domes_control/create
+                icon: icon-plus

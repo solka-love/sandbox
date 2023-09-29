@@ -1,0 +1,22 @@
+columns:
+    first_name:
+        label: Имя
+        type: text
+    last_name:
+        label: Фамилия
+        type: text
+    phone:
+        label: Телефон
+        type: text
+    email:
+        label: Почта
+        type: text
+    message:
+        label: Сообщение
+        type: text
+    created_at:
+        label: 'Дата создания'
+        type: timesince
+    updated_at:
+        label: 'Дата обновления'
+        type: timetense

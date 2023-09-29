@@ -1,0 +1,10 @@
+name: Items
+form: $/solka/domains/models/item/fields.yaml
+modelClass: Solka\Domains\Models\Item
+defaultRedirect: solka/domains/items
+create:
+    redirect: 'solka/domains/items/update/:id'
+    redirectClose: solka/domains/items
+update:
+    redirect: solka/domains/items
+    redirectClose: solka/domains/items

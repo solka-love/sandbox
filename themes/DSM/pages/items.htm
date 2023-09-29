@@ -1,0 +1,29 @@
+title = "DSM Item"
+url = "/items/:slug_post"
+layout = "service"
+is_hidden = 0
+
+[mulridomen]
+==
+<div class="intro">
+    <section class="section">
+        <div class="intro">
+            <a href="{{ 'service'|page }}" >
+                <img src="{{ 'assets/images/back.png'|theme}}" class="img_back">
+            </a>
+            <div class="container">
+            
+                <div class="inrto_inner">
+                    <h1 class="intro_title">{{post.name}}</h1>
+                    <h2 class="sup_title">{{post.excerpt}}</h2>
+    
+                </div>
+                    {{post.content_html|raw}}
+                </div>
+    
+    
+            </div>
+            
+        </div>
+    </section>
+</div>

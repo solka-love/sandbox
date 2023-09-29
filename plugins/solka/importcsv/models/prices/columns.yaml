@@ -1,0 +1,25 @@
+columns:
+    id:
+        label: id
+        type: number
+    price:
+        label: price
+        type: number
+    floor:
+        label: floor
+        type: number
+    mansarda:
+        label: mansarda
+        type: text
+    id_material:
+        label: id_material
+        type: number
+    from_square:
+        label: from_square
+        type: number
+    before_square:
+        label: before_square
+        type: number
+    city:
+        label: city
+        type: text

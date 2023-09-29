@@ -1,0 +1,17 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    sup_title:
+        label: Sup_title
+        span: auto
+        type: text
+    cities:
+        label: 'Tag list'
+        mode: relation
+        separator: comma
+        customTags: true
+        useKey: false
+        span: full
+        type: taglist

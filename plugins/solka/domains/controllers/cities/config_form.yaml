@@ -1,0 +1,10 @@
+name: Cities
+form: $/solka/domains/models/city/fields.yaml
+modelClass: Solka\Domains\Models\City
+defaultRedirect: solka/domains/cities
+create:
+    redirect: 'solka/domains/cities/update/:id'
+    redirectClose: solka/domains/cities
+update:
+    redirect: solka/domains/cities
+    redirectClose: solka/domains/cities

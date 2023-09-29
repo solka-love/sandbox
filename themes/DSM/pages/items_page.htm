@@ -1,0 +1,45 @@
+title = "DSM Item"
+url = "/items/:slug_post"
+layout = "service"
+is_hidden = 0
+
+[mulridomen]
+==
+
+<div class="intro">
+    <div class="container">
+        <div class="body_item">
+            <div class="img_and_about">
+                <div class="title_item">
+                    <h2 class="item_name">{{item.name}}</h2>
+                </div>
+                <div class="container_item">
+                
+                    <div class="card_item">
+                        
+                        <div class="card_header">
+                            <img class="card_img" src="{{item.cover.getThumb(360, auto, {'made':'crope'})}}" alt="{{post.name}}"/>
+                        </div>                    
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="purchase">
+                <div class="background-fone">
+                    <div class="directions">
+                        <p class="item_about">{{item.discription|raw}}</p>
+                    </div>
+                    <div class="card_body">
+                        <p class="item_about">{{item.price}} р.</p>
+                    </div>
+                    <div class="buttons">
+                        <a class="btn" href = "#">Купить сейчас</a>
+                        <a class="btn" href = "#">Добавить в корзину</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

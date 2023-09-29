@@ -1,0 +1,35 @@
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "{{ :slug }}"
+postsPerPage = 3
+noPostsMessage = "Notes not found"
+sortOrder = "published_at desc"
+categoryPage = "help_page"
+postPage = "post"
+==
+{% set posts = blogPosts.posts %}
+
+
+<div class="body_for_news">
+    <div class="container_news">
+        {% for post in posts %}
+        <div class="card">
+           
+            <div class="card_header">
+                <a href="{{post.url}}">
+                {% for image in post.featured_images|slice(0,1) %}
+                <img class="card_img" src="{{image.path}}" alt="{{post.title}}">
+                {% endfor %}
+                </a>
+            </div>
+            <div class="card_body">
+                <span class="tag tag-gray">{{post.published_at|date('d M')}}</span>
+                <h2 class="anime_name">{{post.title}}</h2>
+                <p class="anime_about">{{post.excerpt}}</p>
+            </div>
+          
+        </div>
+    
+        {% endfor %}
+    </div>
+</div>

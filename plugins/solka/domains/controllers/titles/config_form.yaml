@@ -1,0 +1,10 @@
+name: Titles
+form: $/solka/domains/models/title/fields.yaml
+modelClass: Solka\Domains\Models\Title
+defaultRedirect: solka/domains/titles
+create:
+    redirect: 'solka/domains/titles/update/:id'
+    redirectClose: solka/domains/titles
+update:
+    redirect: solka/domains/titles
+    redirectClose: solka/domains/titles

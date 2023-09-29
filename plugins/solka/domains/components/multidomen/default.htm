@@ -1,0 +1,8 @@
+<div class="container">
+    {% if this.page.id == 'service' %}
+        {% partial __SELF__~"::page_item" %}
+
+    {% elseif this.page.id == 'items_page' %}
+        {% partial __SELF__~"::items_page" %}
+    {%endif%}
+</div>

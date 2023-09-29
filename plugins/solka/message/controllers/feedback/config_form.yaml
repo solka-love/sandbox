@@ -1,0 +1,10 @@
+name: Feedback
+modelClass: Solka\Message\Models\Messages
+form: $/solka/message/models/messages/fields.yaml
+defaultRedirect: solka/message/feedback
+create:
+    redirect: 'solka/message/feedback/update/:id'
+    redirectClose: solka/message/feedback
+update:
+    redirect: solka/message/feedback
+    redirectClose: solka/message/feedback

@@ -1,0 +1,12 @@
+list: $/solka/domains/models/city/columns.yaml
+modelClass: Solka\Domains\Models\City
+title: Cities
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'solka/domains/cities/update/:id'

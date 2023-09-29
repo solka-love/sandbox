@@ -1,0 +1,12 @@
+columns:
+    title:
+        label: Title
+        type: text
+    sup_title:
+        label: sup_title
+        type: text
+    cities:
+        label: city
+        type: text
+        select: domain
+        relation: cities

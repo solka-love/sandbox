@@ -1,0 +1,18 @@
+<header class = "header {% if this.page.id != 'home' %} active {%endif%}" id="header">
+    <div class="container">
+        <div class="header_inner">
+            
+            <div class="logo">
+                <a href = "{{ 'home'|page }}" class = "logo_home"><b>Dart service manager</b></div></a>
+            <nav class="nav">
+                <a class ="nav_link {% if this.page.id == 'home' %} active {%endif%}" href="{{ 'home'|page }}">Home</a>
+                <a class ="nav_link {% if this.page.id == 'service' %} active {%endif%}" href="{{ 'service'|page }}">Service</a>
+                <a class ="nav_link {% if this.page.id == 'news_page' %} active {%endif%}" href="{{ 'news_page'|page }}">News</a>
+                <a class ='nav_link' href="#">Pricing</a>
+                <a class ="nav_link {% if this.page.id == 'help_page' %} active {%endif%}" href="{{ 'help_page'|page }}">Help</a>
+            </nav>
+
+        </div>
+    </div>
+
+</header>

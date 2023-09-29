@@ -1,0 +1,4 @@
+import:
+    title: Import subscribers
+    modelClass: solka\importcsv\Models\SubscrPrices
+    list: $/solka/importcsv/models/Prices/columns.yaml

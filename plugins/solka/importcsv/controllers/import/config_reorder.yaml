@@ -1,0 +1,4 @@
+title: Import
+modelClass: Solka\ImportCsv\Models\Prices
+toolbar:
+    buttons: reorder_toolbar

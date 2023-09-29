@@ -1,0 +1,10 @@
+name: Import
+form: $/solka/importcsv/models/prices/fields.yaml
+modelClass: Solka\ImportCsv\Models\Prices
+defaultRedirect: solka/importcsv/import
+create:
+    redirect: 'solka/importcsv/import/update/:id'
+    redirectClose: solka/importcsv/import
+update:
+    redirect: solka/importcsv/import
+    redirectClose: solka/importcsv/import

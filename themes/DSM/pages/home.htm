@@ -1,0 +1,48 @@
+title = "DSM HomePage"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[contenteditor]
+==
+<div class="intro">
+            <div class="container">
+                <div class="inrto_inner">
+                    {% component 'contenteditor' file="intro/title_all.htm" fixture="h1" class="intro_title" %}
+                    {% component 'contenteditor' file="intro/sup_title_all.htm" fixture="h2" class="sup_title" %}
+                    <a class="btn" href = "#">Buy Now</a>
+                    <a class="btn" href = "#">try for free</a>
+                    
+                </div>
+                <div class="video">
+                    <video class="id_videos" muted="muted" autoplay loop controls>
+                        <source id = "mp4" src = "{{'assets/videos/skrip.mp4'|theme}}" type="video/mp4">
+                    </video>
+                </div>
+
+               
+            </div>
+
+            <div class="slider">
+                <div class="container">
+                    <div class="slider_inner">
+                    <div class="slider_item active">
+                        <sapn class="slider_num">01</sapn>
+                            Intro
+                    </div>
+                    <div class="slider_item">
+                        <sapn class="slider_num">02</sapn>
+                            Work
+                    </div>
+                    <div class="slider_item">
+                        <sapn class="slider_num">03</sapn>
+                            About
+                        </div>
+                    <div class="slider_item">
+                        <sapn class="slider_num">04</sapn>
+                            Contacts
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

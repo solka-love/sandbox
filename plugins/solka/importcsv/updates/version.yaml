@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table solka_importcsv_'
+    - builder_table_create_solka_importcsv_.php
+1.0.3:
+    - 'Updated table solka_importcsv_'
+    - builder_table_update_solka_importcsv_home.php
+1.0.4:
+    - 'Created table solka_importcsv_material'
+    - builder_table_create_solka_importcsv_material.php
+1.0.5:
+    - 'Updated table solka_importcsv_home'
+    - builder_table_update_solka_importcsv_home_2.php
+1.0.6:
+    - 'Updated table solka_importcsv_home'
+    - builder_table_update_solka_importcsv_home_3.php

@@ -1,0 +1,10 @@
+name: Domes_control
+form: $/solka/domains/models/city/fields.yaml
+modelClass: Solka\Domains\Models\City
+defaultRedirect: solka/domains/domes_control
+create:
+    redirect: 'solka/domains/domes_control/update/:id'
+    redirectClose: solka/domains/domes_control
+update:
+    redirect: solka/domains/domes_control
+    redirectClose: solka/domains/domes_control

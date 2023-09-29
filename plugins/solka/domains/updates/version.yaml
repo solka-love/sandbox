@@ -1,0 +1,35 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table solka_domains_citys'
+    - builder_table_create_solka_domains_citys.php
+1.0.3:
+    - 'Created table solka_domains_services_item'
+    - builder_table_create_solka_domains_services_item.php
+1.0.4:
+    - 'Updated table solka_domains_services_item'
+    - builder_table_update_solka_domains_services_item.php
+1.0.5:
+    - 'Created table solka_domains_tags'
+    - builder_table_create_solka_domains_tags.php
+1.0.6:
+    - 'Updated table solka_domains_services_item'
+    - builder_table_update_solka_domains_services_item_2.php
+1.0.7:
+    - 'Updated table solka_domains_services_item'
+    - builder_table_update_solka_domains_services_item_3.php
+1.0.8:
+    - 'Created table solka_tags_table_id many to many relation'
+    - migration_108.php
+1.0.9:
+    - 'Updated table solka_domains_citys'
+    - builder_table_update_solka_domains_citys.php
+1.0.10:
+    - 'Updated table solka_domains_services_item'
+    - builder_table_update_solka_domains_services_item_4.php
+1.0.11:
+    - 'Created table solka_domains_title'
+    - builder_table_create_solka_domains_title.php
+1.0.12:
+    - 'Created  table solka_title_city many to many relation'
+    - migration_1012.php

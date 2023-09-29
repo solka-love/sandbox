@@ -1,0 +1,21 @@
+
+<div class="body_for_news">
+    <div class="container_news">
+        {% for post in posts %}
+        <div class="card">
+           
+            <div class="card_header">
+                <a href="/items/{{post.slug}}">
+                    <img class="card_img" src="{{post.cover.getThumb(auto, auto, {'made':'crope'})}}" alt="{{post.name}}"/>
+                </a>
+            </div>
+                <div class="card_body">
+                    <h2 class="anime_name">{{post.name}}</h2>
+                    <p class="anime_about">{{post.short}}</p>
+                    <p class="anime_about">{{post.price}} р.</p>
+                </div>
+        </div>
+    
+        {% endfor %}
+    </div>
+</div>

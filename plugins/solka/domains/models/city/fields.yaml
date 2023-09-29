@@ -1,0 +1,9 @@
+fields:
+    name:
+        label: Город
+        span: auto
+        type: text
+    domain:
+        label: Домен
+        span: auto
+        type: text

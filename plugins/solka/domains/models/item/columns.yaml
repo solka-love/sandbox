@@ -1,0 +1,20 @@
+columns:
+    name:
+        label: Название
+        type: text
+        searchable: true
+    short:
+        label: 'Короткое описание'
+        type: text
+    price:
+        label: Цена
+        type: text
+        sortable: true
+    slug:
+        label: URL
+        type: text
+    cities:
+        label: Domen
+        type: text
+        select: domain
+        relation: cities

@@ -1,0 +1,15 @@
+columns:
+    name:
+        label: Город
+        type: text
+        sortable: true
+    domain:
+        label: Домен
+        type: text
+        searchable: true
+        sortable: false
+    posts_counter:
+        label: Кол-во 
+        relation: items
+        useRelationCount: true
+    
