@@ -1,3 +1,14 @@
+## Install OS Panel and october cms
+```
+Смотрите видео:
+https://www.youtube.com/watch?v=c9iEHCWa2J8
+
+https://www.youtube.com/watch?v=Les9N_6K11c&t=439s
+
+```
+
+
+
 ## 1. Устанавливаем octobercms 1.x
 https://drive.google.com/file/d/1YcAuQ5ov4jQCosb-Fijb6lyPHvrQ8hmg/view?usp=sharing
 
